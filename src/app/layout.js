@@ -13,7 +13,18 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Solfeggio Frequency Player",
-  description: "Solfeggio Frequency Player",
+  description: "Explore and experience the benefits of Solfeggio frequencies.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Solfeggio Frequency Player",
+    description: "Explore and experience the benefits of Solfeggio frequencies.",
+    url: "https://solfeggio.vercel.app",
+    siteName: "Solfeggio Frequency Player",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
